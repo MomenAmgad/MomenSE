@@ -5,3 +5,41 @@ git add section1.1.txt
 git add section3.1.txt
 
 git add section5.1.txt
+
+git config --global user.email "momen.amgad540@gmail.com"
+git config --global user.email "momen amgad"
+
+git commit -m "committing all the three files"
+
+git rm section3.1.txt
+
+git status
+
+git commit -m "committing the deleted file"
+
+git log
+
+ git revert 6e72a75cbb9e093a4f60a25833cfa753fdbecc58
+
+restoring the file
+
+:wq
+
+git remote add origin https://github.com/MomenAmgad/MomenSE.git
+
+git push -u origin master
+
+ git branch ReadMe
+
+ git checkout ReadMe
+
+git add README.md
+
+git commit -m "adding the readme file to the branch"
+
+git checkout master
+ git merge ReadMe
+
+git add AllMyCommands.txt
+
+git commit -m "committing allmycommands file"
