@@ -1,0 +1,7 @@
+git init
+
+git add section1.1.txt
+
+git add section3.1.txt
+
+git add section5.1.txt
